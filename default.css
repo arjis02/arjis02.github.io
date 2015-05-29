@@ -2,6 +2,14 @@ body {
 	background-color: #202020;
 }
 
+h1 {
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF;
+}
+
 #myphoto {
 	/*background-color: black;*/
 	height: 300px;
