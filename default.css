@@ -1,0 +1,72 @@
+body {
+	background-color: #202020;
+}
+
+#myphoto {
+	/*background-color: black;*/
+	height: 300px;
+	width: 300px;
+	/*border-radius: 50%;*/
+	text-align: center;
+	border-spacing: 2px;
+	position: absolute;
+	margin-left: 40%;
+	margin-top: 20%;
+}
+
+.wordlinks {
+	font-family: 'Rock Salt', cursive;
+}
+
+a {
+	color: #FF6600;
+	/*position: absolute;*/
+}
+
+#contact {
+	position: absolute;
+	margin-left: 28%;
+	margin-top: 16%;
+}
+
+#myprojects {
+	position: absolute;
+	margin-left: 23%;
+	margin-top: 24%;
+}
+
+#blogs {
+	position: absolute;
+	margin-left: 23%;
+	margin-top: 32%;
+}
+
+#aboutme {
+	position: absolute;
+	margin-left: 28%;
+	margin-top: 41%;
+}
+
+#twitter {
+	position: absolute;
+	margin-left: 65%;
+	margin-top: 15%;
+}
+
+#facebook {
+	position: absolute;
+	margin-left: 72%;
+	margin-top: 23%;
+}
+
+#linkedin {
+	position: absolute;
+	margin-left: 72%;
+	margin-top: 31%;
+}
+
+#github {
+	position: absolute;
+	margin-left: 65%;
+	margin-top: 40%;
+}
