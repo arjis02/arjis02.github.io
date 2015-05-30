@@ -27,6 +27,11 @@ h3 {
 	margin-top: 20%;
 }
 
+#photo {
+	height: 100px;
+	width: 100px;
+}
+
 .wordlinks {
 	font-family: 'Rock Salt', cursive;
 }
@@ -91,6 +96,7 @@ a {
 
 li {
 	font-size: 30px;
+	padding-top: 20px;
 }
 
 .date {
