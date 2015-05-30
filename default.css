@@ -15,10 +15,22 @@ h1.nothome {
 	margin-top: 3em;
 }
 
+h2 {
+	color: #FFFFFF;
+	position: absolute;
+	padding-top: 30px;
+}
+
 h3 {
 	color: #FFFFFF;
 	position: absolute;
 	padding-top: 30px;
+}
+
+h4 {
+	color: #FFFFFF;
+	position: absolute;
+	padding-top: 40px;
 }
 
 .border {
