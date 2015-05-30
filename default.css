@@ -140,3 +140,8 @@ li {
 .post {
 	color: #FFFFFF;
 }
+
+article {
+	position: absolute;
+	margin: 14em;
+}
