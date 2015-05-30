@@ -85,6 +85,10 @@ a {
 }
 
 #bloglist {
-	position: static;
-	margin-top: 5em;
+	position: absolute;
+	margin-top: 10em;
+}
+
+li {
+	font-size: 24;
 }
