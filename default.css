@@ -11,8 +11,8 @@ h1 {
 
 h1.nothome {
 	position: absolute;
-	margin-left: 35%;
-	margin-top: 30px;
+	margin-left: 33%;
+	margin-top: 3em;
 }
 
 h3 {
@@ -99,7 +99,8 @@ a {
 
 #bloglist {
 	position: absolute;
-	margin-top: 10em;
+	margin-top: 20em;
+	margin-left: 36%;
 }
 
 li {
