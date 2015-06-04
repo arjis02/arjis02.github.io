@@ -145,3 +145,8 @@ article {
 	position: absolute;
 	margin: 14em;
 }
+
+.picture {
+	position relative;
+	margin-left: 35%;
+}
