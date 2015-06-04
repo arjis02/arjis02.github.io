@@ -75,6 +75,10 @@ a {
 	/*position: absolute;*/
 }
 
+a:hover {
+	color: #FFFFFF;
+}
+
 #contact {
 	position: absolute;
 	margin-left: 28%;
