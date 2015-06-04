@@ -26,7 +26,7 @@ h3 {
 	padding-top: 30px;
 }
 
-h3 .subtitle {
+h3.subtitle {
 	position: relative;
 	color: #FFFFFF;
 	margin-top: 2em;
