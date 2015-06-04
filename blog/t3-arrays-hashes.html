@@ -37,7 +37,7 @@
       <h4>June 1, 2015</h4>
       <section class="post">
         <h3 class="subtitle">The Array</h3>
-          Let's begin with arrays. An array is an ordered collection of objects. These objects can be a multitude of things. They can be Strings, Integers, Floats, Arrays, etc. The objects in an array are based on a consistent, consecutive numerical index. The first object in the array is located at the '0' position of the array. The next object is at index '1'. Then, index '2' and so on. The picture below demonstrates how objects are organized in an array.
+        Let's begin with arrays. An array is an ordered collection of objects. These objects can be a multitude of things. They can be Strings, Integers, Floats, Arrays, etc. The objects in an array are based on a consistent, consecutive numerical index. The first object in the array is located at the '0' position of the array. The next object is at index '1'. Then, index '2' and so on. The picture below demonstrates how objects are organized in an array.
       </section>
       <section class="picture">       
         <img src="https://docs.oracle.com/javase/tutorial/figures/java/objects-tenElementArray.gif" alt="Array Diagram">         
@@ -56,6 +56,37 @@
       </section>
       <section class="picture">
         ["this", "that", "1", 1, 2.0, [4,3]]
+      </section>
+      <section class="post">
+        The picture above is what an array looks like in Ruby. As you can see, the array has strings, an integer, a float, and an array. "this" is located at index '0' of the array. You can use this property to your advantage if you were looking for every other object in the array. You can achieve this by iterating through the array and selecting the objects located in the 'even' indices. Or say you wanted to remove the first object in the array. You already know the first object is at index '0'. So you can simply tell the computer to remove the object at that location.
+      </section>
+      <section class="post">
+        <h3 class="subtitle">The Hash</h3>
+        Like an array, a hash is also a collection of objects. However, instead of organizing the objects in a linear way, the hash consists of key/value pairs. You can access the values through their corresponding keys. 
+      </section>
+      <section class="picture">
+        <img src="http://howtoprogrambetter.com/wp-content/uploads/2014/02/hash-in-ruby-language1.png" alt="Hash Diagram">
+      </section>
+      <section class="post">
+        The picture above shows a hash with one key/value pair. You can simply obtain the value, "Alex Tamoykin", with the "name" key. Hashes  in Ruby do remember their key-insertion order. This means that you can iterate through it similarly to an array. But this is seldomly used since arrays are perfect for that.
+      </section>
+      <section class="post">
+        Like an array, you can create a hash in one of four ways:
+        <ul>
+          <li class="post">Using Hash.new</li>
+          <li class="post">The literal way: hash = {}</li>
+          <li class="post">With a top-level method called Hash</li>
+          <li class="post">With the Hash.[] method</li>
+        </ul>
+      </section>
+      <section class="picture">
+        <img src="http://image.slidesharecdn.com/rubyppt-140312021739-phpapp02/95/ruby-basics-by-rafiq-18-638.jpg?cb=1394590761" alt="Ruby Hash Examples">
+      </section>
+      <section class="post">
+        The picture above shows how to create and access a hash in Ruby. To access the value, you would use the variable followed by the key within the brackets.
+      </section>
+      <section class="post">
+        A good use for a hash would be if you needed to keep a library of the ages of a particular group of people. In this case the key would be a person's name. And the value would be that person's age. When the time comes and you need to get a specific person's age, you can just call up the key with the name and retrieve the age.
       </section>
     </article>
   </main>
