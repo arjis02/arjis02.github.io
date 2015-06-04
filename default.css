@@ -26,6 +26,13 @@ h3 {
 	padding-top: 30px;
 }
 
+h3 .subtitle {
+	position: relative;
+	color: #FFFFFF;
+	margin-top: 2em;
+	text-decoration: underline;
+}
+
 h4 {
 	color: #FFFFFF;
 	padding-top: 40px;
