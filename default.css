@@ -134,6 +134,10 @@ li {
 	padding-top: 20px;
 }
 
+li.post {
+	font-size: 20px;
+}
+
 .date {
 	font-size: 14px;
 	color: #FFFFFF;
