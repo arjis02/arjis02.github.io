@@ -40,9 +40,9 @@
         Remember the Enumerable#each method? It would iterate through arrays and hashes and call a block for each element of enumerable. Well the cycle method is similar, except you can designate how many times you want to iterate through the enumerable. The other difference is that cycle returns nil once the loop has finished. See the example below:
       </section>
       <section class="picture">
-        a = ["yabba", "dabba", "doo"] \n
-        a.cycle{ |x| puts x }     # prints yabba, dabba, doo, yabba, dabba, doo,.. forever \n
-        a.cycle(2){ |x| puts x }  # prints yabba, dabba, doo, yabba, dabba, doo
+        <p>a = ["yabba", "dabba", "doo"]</p>
+        <p>a.cycle{ |x| puts x }     # prints yabba, dabba, doo, yabba, dabba, doo,.. forever</p>
+        <p>a.cycle(2){ |x| puts x }  # prints yabba, dabba, doo, yabba, dabba, doo</p>
       </section>  
     </article>
   </main>
