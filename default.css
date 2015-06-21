@@ -173,6 +173,18 @@ article {
 	margin-bottom: 2em;
 	color: #FF6600;
 	font-size: 30px;
+	/*background-color: #F7F1EE;*/
+	padding-left: 0.5em;
+}
+
+.snippet {
+	display: block;
+	margin-top: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
+	color: #FF6600;
+	font-size: 30px;
 	background-color: #F7F1EE;
 	padding-left: 0.5em;
 }
