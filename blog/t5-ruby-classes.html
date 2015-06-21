@@ -42,7 +42,24 @@
       <section class="picture">
       	<a href="http://s280.photobucket.com/user/Rj_Ramos/media/8280c275-ab63-49dd-8d9a-bef25a3b7d5f_zpshj4ssqos.png.html" target="_blank"><img src="http://i280.photobucket.com/albums/kk166/Rj_Ramos/8280c275-ab63-49dd-8d9a-bef25a3b7d5f_zpshj4ssqos.png" border="0" alt=" photo 8280c275-ab63-49dd-8d9a-bef25a3b7d5f_zpshj4ssqos.png"/></a>
       </section>
-      
+      <section class="post">
+      	Here I made a simple class called 'Car'. All class names begin with a capital letter. On the line below is the attribute accessor. This allows you to access the instance variables (:make, :model, and :year) from outside the class. We'll dive into that at another time. Next, we have the initialize method that is taking in some arguments. This method is executed when an instance of the class is created. Line 23 shows exactly how we create an instance of the class. I stored the new instance of 'Car' in the variable 'car1'. The initialize method is looking for three arguments to be entered. This is the ("BMW", "Z4", 2012). If it doesn't get 3 arguments, the program will raise an Argument Error.
+      </section>
+      <section class="picture">
+      	<a href="http://s280.photobucket.com/user/Rj_Ramos/media/2464aca3-17bc-44af-ba00-eb9c18918f22_zpsiy9jggyp.png.html" target="_blank"><img src="http://i280.photobucket.com/albums/kk166/Rj_Ramos/2464aca3-17bc-44af-ba00-eb9c18918f22_zpsiy9jggyp.png" border="0" alt=" photo 2464aca3-17bc-44af-ba00-eb9c18918f22_zpsiy9jggyp.png"/></a>
+      </section>
+      <section class="post">
+      	Inside the initialize method are the assignments of the instance variables. These variables always start with the '@' symbol. These don't necessarily need to have the same names as the arguments, but it is standard procedure to use the same names to avoid confusion. Without the '@' symbol, you wouldn't have access to the values stored in them outside of the initialize method. Now that the instance variables are created, let's see how we use them throughout the class.
+      </section>
+      <section class="post">
+      	I created an instance method called 'lease_end' that returns a string with the instance values set in the initialize method. Then, I created another method called 'show' that creates a hash for the make and model of the car in each instance. 
+      </section>
+      <section class="post">
+      	After creating a new instance of Car and storing in the variable car1, I called the show and lease_end methods on it. Then, I created another instance of Car and stored it in car2. I called the same methods on it and here is the output:
+      </section>
+      <section class="picture">
+      	<a href="http://s280.photobucket.com/user/Rj_Ramos/media/0e8e342d-f421-4194-b235-75f9e717770a_zpsc3pptoff.png.html" target="_blank"><img src="http://i280.photobucket.com/albums/kk166/Rj_Ramos/0e8e342d-f421-4194-b235-75f9e717770a_zpsc3pptoff.png" border="0" alt=" photo 0e8e342d-f421-4194-b235-75f9e717770a_zpsc3pptoff.png"/></a>
+      </section>
     </article>
   </main>
 </body>
