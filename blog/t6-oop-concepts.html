@@ -41,6 +41,34 @@
       <section class="picture">
         <a href="http://s280.photobucket.com/user/Rj_Ramos/media/1a1c6a9c-9f72-413a-91a8-31a3d05d576f_zpszh0prap1.png.html" target="_blank"><img src="http://i280.photobucket.com/albums/kk166/Rj_Ramos/1a1c6a9c-9f72-413a-91a8-31a3d05d576f_zpszh0prap1.png" border="0" alt=" photo 1a1c6a9c-9f72-413a-91a8-31a3d05d576f_zpszh0prap1.png"/></a>
       </section>
+      <section class="post">
+        As you can see in the picture above, classes have superclasses, also called parent classes. Each class within a class inherits the methods defined in its parent class. Every object you create is an instance of a class.
+      </section>
+      <section class="post">
+        Another Ruby construct that's closely related to classes are modules. They encourage "modular" design. It breaks large components into smaller ones and lets you mix and match object behaviors. Like classes, modules are bundles of methods and constants. However, modules do not have instances. You can include a module into a particular class to add its functionality. Modules are, actually, a more basic structure. As you can see in IRB, the superclass of Class is Module.
+      </section>
+      <section class="picture">
+        <a href="http://s280.photobucket.com/user/Rj_Ramos/media/4d8f13bb-9403-42a1-9d93-fc9c9b4fa79d_zpsswzb4zon.png.html" target="_blank"><img src="http://i280.photobucket.com/albums/kk166/Rj_Ramos/4d8f13bb-9403-42a1-9d93-fc9c9b4fa79d_zpsswzb4zon.png" border="0" alt=" photo 4d8f13bb-9403-42a1-9d93-fc9c9b4fa79d_zpsswzb4zon.png"/></a>
+      </section>
+      <section class="post">
+        Writing a module is similar to writing a class, except you start your definition with the 'module' keyword instead of the 'class' keyword. When you write a class, you would then create an instance of a class. As I said before, modules do not have instances. Instead, you would add a module into a class. You can do this by using either the 'include' method or the 'prepend' method. It would look like this:
+      </section>
+      <section class="snippet">
+        class MyFirstModule
+          def say_hello
+            puts "Hello"
+          end
+        end
+
+        class ModuleTester
+          include MyFirstModule
+        end
+        mt = ModuleTester.new
+        mt.say_hello
+      </section>
+      <section class="post">
+        You also have the ability to add more than one module to a class. Classes cannot inherit from more than one class. But with the help of modules, you can add something different to the methods available through the class. And with these tools, you have many ways to design your programs and model your data.
+      </section>
       
     </article>
   </main>
