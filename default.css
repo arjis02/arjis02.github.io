@@ -9,10 +9,16 @@ h1 {
 	margin-top: -20px;
 }
 
-h1.nothome {
-	position: absolute;
-	margin-left: 10em;
-	margin-top: 3em;
+.nothome {
+	color: #FFFFFF;
+	font-family: 'Rock Salt', cursive;
+	position: relative;
+	padding-left: 4em;
+	padding-top: 4em;
+	display: inline-block;
+	width: 45%;
+	font-size: 30px;
+	font-weight: bold;
 }
 
 h2 {
@@ -40,20 +46,24 @@ h4 {
 
 .border {
 	background-color: #FF6600;
-	margin-top: 12em;
-	padding-top: 2px;
-	position: absolute;
+	margin-top: 1em;
+	position: relative;
+	height: 2px;
 	width: 100%;
-	margin-left: 13em;
 }
 
 .content {
+	position: relative;
+	display: inline-block;
 	border-style: solid;
 	border-width: 2px;
 	border-color: #FFFFFF;
 	background-color: #202020;
-	padding-left: 1em;
+	padding-left: 50px;
 	padding-right: 1em;
+	width: 65%;
+	float: left;
+	margin: 40px 10px 10px 40px;
 }
 
 #myphoto {
@@ -69,8 +79,9 @@ h4 {
 #photo {
 	height: 200px;
 	width: 200px;
-	position: absolute;
-	margin-top: 10px;
+	position: relative;
+	display: inline-block;
+	float: left;
 }
 
 .wordlinks {
@@ -155,8 +166,9 @@ li.post {
 }
 
 #headerlinks {
-	position: absolute;
-	margin-left: 75%;
+	position: relative;
+	display: inline-block;
+	width: 25%;
 }
 
 .post {
@@ -236,4 +248,20 @@ article {
 }
 .tfclear{
   clear:both;
+}
+
+/*----------- SIDE BAR ------------*/
+#sidebar {
+	position: relative;
+	display: inline-block;
+	float: right;
+	width: 25%;
+	border-width: 2px;
+	border-color: #FFFFFF;
+	margin-right: 5px;
+}
+
+#sidebar li {
+	font-size: 20px;
+	padding-top: 20px;
 }
