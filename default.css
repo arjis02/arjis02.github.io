@@ -155,8 +155,9 @@ li.post {
 }
 
 #headerlinks {
-	position: absolute;
-	margin-left: 75%;
+	/*position: absolute;
+	margin-left: 75%;*/
+	float: left;
 }
 
 .post {
