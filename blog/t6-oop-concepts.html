@@ -53,18 +53,8 @@
       <section class="post">
         Writing a module is similar to writing a class, except you start your definition with the 'module' keyword instead of the 'class' keyword. When you write a class, you would then create an instance of a class. As I said before, modules do not have instances. Instead, you would add a module into a class. You can do this by using either the 'include' method or the 'prepend' method. It would look like this:
       </section>
-      <section class="snippet">
-        class MyFirstModule
-          def say_hello
-            puts "Hello"
-          end
-        end
-
-        class ModuleTester
-          include MyFirstModule
-        end
-        mt = ModuleTester.new
-        mt.say_hello
+      <section class="picture">
+        <a href="http://s280.photobucket.com/user/Rj_Ramos/media/21d4bf85-6427-4c38-8543-79423cdb019d_zps16hkuuow.png.html" target="_blank"><img src="http://i280.photobucket.com/albums/kk166/Rj_Ramos/21d4bf85-6427-4c38-8543-79423cdb019d_zps16hkuuow.png" border="0" alt=" photo 21d4bf85-6427-4c38-8543-79423cdb019d_zps16hkuuow.png"/></a>
       </section>
       <section class="post">
         You also have the ability to add more than one module to a class. Classes cannot inherit from more than one class. But with the help of modules, you can add something different to the methods available through the class. And with these tools, you have many ways to design your programs and model your data.
