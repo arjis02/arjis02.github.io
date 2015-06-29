@@ -157,8 +157,6 @@ li.post {
 #headerlinks {
 	position: absolute;
 	margin-left: 75%;
-	float: right;
-	padding: 20px;
 }
 
 .post {
@@ -201,8 +199,8 @@ article {
     /*background-color:#c3dfef;*/
   }
   #tfnewsearch{
-    float:right;
-    padding:20px;
+    float: right;
+    padding: 20px;
   }
   .tftextinput{
     margin: 0;
