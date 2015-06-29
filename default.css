@@ -141,12 +141,12 @@ a:hover {
 #github {
 	position: absolute;
 	margin-left: 65%;
-	margin-top: 40px;
+	margin-top: 40%;
 }
 
 #bloglist {
-	position: absolute;
-	margin-top: 20em;
+	position: relative;
+	margin-top: 40px;
 	margin-left: 36%;
 }
 
