@@ -264,3 +264,14 @@ article {
 	font-size: 20px;
 	padding-top: 20px;
 }
+
+th {
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FFFFFF;
+}
+
+td {
+	text-align: center;
+}
