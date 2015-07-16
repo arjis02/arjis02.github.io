@@ -44,6 +44,11 @@ h4 {
 	padding-top: 40px;
 }
 
+h5 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 .border {
 	background-color: #FF6600;
 	margin-top: 1em;
