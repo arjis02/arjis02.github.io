@@ -44,6 +44,11 @@ h4 {
 	padding-top: 40px;
 }
 
+h5 {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 .border {
 	background-color: #FF6600;
 	margin-top: 1em;
@@ -265,7 +270,19 @@ article {
 	padding-top: 20px;
 }
 
+<<<<<<< HEAD
 footer {
 	position: relative;
 	
+=======
+th {
+	text-align: center;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FFFFFF;
+}
+
+td {
+	text-align: center;
+>>>>>>> 6dc0ae67c5f702b139f3f647d5fe1e314449edb2
 }
