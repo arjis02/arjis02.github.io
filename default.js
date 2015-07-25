@@ -1,8 +1,9 @@
 $(document).ready(function() {
-    $('.header_icon').mouseenter(function() {
+    $('.icon-link').mouseenter(function() {
         $(this).fadeTo('fast', 1);    
     });
-    $('.header_icon').mouseleave(function() {
+    $('.icon-link').mouseleave(function() {
         $(this).fadeTo('fast', 0.5);
     });
 });
+
