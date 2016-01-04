@@ -1,0 +1,36 @@
+.node {
+  color: 000;
+  font: 24px "Verdana", Geneva, sans-serif;
+  display: inline-block;
+}
+
+.node:before {
+  content: "\2666";
+}
+
+a.node {
+  color: #000;
+  cursor: pointer;
+}
+
+a.node:before {
+  content: "\25BA";
+}
+
+a.node.expanded:before {
+  content: "\25BC";
+}
+
+a.node:hover {
+  color: #3cb371;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.link:hover {
+  text-decoration: none;
+  background-color: black;
+}

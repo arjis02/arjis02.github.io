@@ -1,0 +1,70 @@
+header {
+  height: 100px;
+  padding-top: 30px;
+  background-color:rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font: 32px "Arial Black", Gadget, sans-serif;
+}
+
+body {
+  font: 15px arial, sans-serif;
+  background-image: url("imgs/main.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.click-me-button {
+  color: red;
+}
+
+.my-name {
+  display: none;
+  background-color: white;
+  border-radius: 0.5em;
+}
+
+.logo {
+  display: none;
+  font-size: 32px;
+  font-family: 'Rock Salt', cursive;
+  color: #FF6600;
+}
+
+.main-content {
+  display: none;
+  margin: 2%;
+  background-color: white;
+  border-radius: 1em;
+  border-style: solid;
+}
+
+#myphoto {
+  margin: 5%;
+  border-radius: 1em;
+}
+
+#info {
+  padding-left: 3em;
+}
+
+.headlogolinks a {
+  opacity: 0.6;
+}
+
+.about-me {
+  color: #000;
+}
+
+.about-me:hover {
+  cursor: pointer;
+}
+
+.about-me-content {
+  display: none;
+  background-color: white;
+  margin: 2%;
+  padding: 2%;
+  border-radius: 1em;
+  border-style: solid;
+  font: 15px "Verdana", Geneva, sans-serif;
+}

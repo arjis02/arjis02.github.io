@@ -1,2 +1,1 @@
-# arjis02.github.io
-My DBC Phase 0 GitHub Pages site!
+#About me..
