@@ -6,7 +6,7 @@ var items = [
         label: "Dream Catcher",
         items: [
           {
-            label: "<a href='http://luciddreamcatcher.herokuapp.com/' target='_blank' class='link'>Heroku Site</a>"
+            label: "<a href='http://luciddreamcatcher.herokuapp.com/' target='_blank' class='link'>Production</a>"
           },
           {
             label: "<a href='https://github.com/nyc-fireflies-2015/DreamCatcher' target='_blank' class='link'>Github Repository</a>"
@@ -14,7 +14,15 @@ var items = [
         ]
       },
       {
-        label: "<a href='https://github.com/arjis02/DMEassistant' target='_blank' class='link'>DME Assistant</a>"
+        label: "DME Assistant"
+        items:[
+          {
+            label: "<a href='https://dmeassistant.herokuapp.com/' target='_blank' class='link'>Production</a>"
+          },
+          {
+            label: "<a href='https://github.com/arjis02/DMEassistant' target='_blank' class='link'>Github Repository</a>"
+          }
+        ]
       },
       {
         label: "<a href='https://github.com/nyc-fireflies-2015/slackoverflow' target='_blank' class='link'>Slack Overflow</a>"
