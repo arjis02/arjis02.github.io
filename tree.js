@@ -14,7 +14,7 @@ var items = [
         ]
       },
       {
-        label: "DME Assistant"
+        label: "DME Assistant",
         items:[
           {
             label: "<a href='https://dmeassistant.herokuapp.com/' target='_blank' class='link'>Production</a>"
