@@ -2,6 +2,7 @@
   generateHTML();
 
   $(document).ready(function(){
+    $('a.node.expanded').each(expandListToggle);
     $('.my-name').fadeIn("slow");
     $('.headlogolinks a').hover(fadeInLink, fadeOutLink);
     $('.menu-button').on('click', showMainContent);
