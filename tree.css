@@ -1,7 +1,7 @@
 .node {
   color: 000;
   font: 24px "Verdana", Geneva, sans-serif;
-  display: inline-block;
+  /*display: inline-block;*/
 }
 
 .node:before {
