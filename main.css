@@ -68,3 +68,12 @@ body {
   border-style: solid;
   font: 15px "Verdana", Geneva, sans-serif;
 }
+
+.col-xs-12 #myphoto {
+  text-align: center;
+}
+
+.col-xs-12 #info {
+  text-align: center;
+  padding-left: 0;
+}
