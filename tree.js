@@ -10,6 +10,9 @@ var items = [
           },
           {
             label: "<a href='https://github.com/nyc-fireflies-2015/DreamCatcher' target='_blank' class='link'>Github Repository</a>"
+          },
+          {
+            label: "<span class='video-link'>Launch Presentation</span>"
           }
         ]
       },
