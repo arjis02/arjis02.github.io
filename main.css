@@ -90,6 +90,7 @@ iframe {
 
 .video-desc {
   font: 25px "Verdana", Geneva, sans-serif;
+  text-align: center;
   padding-top: 4em;
   color: red;
 }
