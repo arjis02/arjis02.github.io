@@ -7,6 +7,7 @@
     $('.headlogolinks a').hover(fadeInLink, fadeOutLink);
     $('.menu-button').on('click', showMainContent);
     $('a.node').on('click', expandListToggle);
+    $('.video-link').on('click', showLaunchVideo);
     $('.about-me').on('click', toggleAboutMeContent);
   });
 
@@ -16,6 +17,10 @@
 
   function fadeOutLink() {
     $(this).fadeTo("fast", 0.6);
+  }
+
+  function showLaunchVideo() {
+    $('.video-block').slideToggle();
   }
 
   function showMainContent() {
