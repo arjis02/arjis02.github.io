@@ -34,3 +34,17 @@ ul {
   text-decoration: none;
   background-color: black;
 }
+
+.about-me {
+  color: #337ab7;
+}
+
+.video-link {
+  color: #337ab7;
+}
+
+.video-link:hover {
+  text-decoration: none;
+  background-color: black;
+  cursor: pointer;
+}
