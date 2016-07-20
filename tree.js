@@ -3,6 +3,9 @@ var items = [
     label: "My Projects",
     items: [
       {
+        label: "<a href='https://myroomies.herokuapp.com/' target='_blank' class='link'>Roomies</a>"
+      },
+      {
         label: "Dream Catcher",
         items: [
           {
